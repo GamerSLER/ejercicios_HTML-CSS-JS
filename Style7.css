@@ -1,0 +1,19 @@
+body{
+    background-color: hsl(290, 25%, 43%);
+}
+.maxwidth{
+    max-width: max-content;
+    margin: auto;
+    border: 3px solid #480554;
+}
+
+.texto{
+    top: 35%;
+    right: 35%;
+}
+
+.Caramandunga{
+    width: 500px;
+    margin: auto;
+    padding-left: 500px;
+}

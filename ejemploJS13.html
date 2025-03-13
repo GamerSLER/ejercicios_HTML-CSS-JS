@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5</title>
+</head>
+<body>
+    <h1>Adivina el número aleatorio (1 al 100)</h1>
+    <input type="number" id="numUsr">
+    <button onclick="verificarNum()">Adivinar</button>
+    <p id="resultado"></p>
+    <script>
+        var randomNumber = Math.floor(Math.random() * 100) + 1;
+
+        function verificarNum() {
+            var numUsr = parseInt(document.getElementById("guessField").value);
+        }
+            if (numUsr == randomNumber){
+                document.getElementById("resultado").innerHTML = "¡Has adivinado el número!"
+            } else if (numUsr > randomNumber){
+                document.getElementById("resultado").innerHTML = "El número que introduciste es alto."
+            } else {
+                document.getElementById("resultado").innerHTML = "El número que introduciste es bajo."
+            }
+    </script>
+</body>
+</html>

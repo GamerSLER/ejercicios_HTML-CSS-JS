@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Tabla Interactiva</title>
+ <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Formulario de registros</h1>
+
+    <input type="text" id="nombre" placeholder="Nombre" required>
+    <input type="number" id="edad" placeholder="Edad" required>
+    <button onclick="generarFila()">Generar fila</button>
+    <table id="tabla-registros">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Edad</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Las filas se agregarán aquí -->
+    </tbody>
+    </table>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>

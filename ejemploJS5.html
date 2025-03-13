@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disco</title>
+</head>
+<body>
+    <h1>¿Quieres entrar a la discoteca?</h1>
+    <p><b>Introduce tu edad</b></p>
+    <input type="text" id="numeroInput">
+    <button onclick="verificarEdad()">Verificar</button>
+    <p id="resultado"></p>
+    <script>
+        function verificarEdad(){
+            var numero = document.getElementById("numeroInput").value;
+            numero = Number(numero);
+
+            if (numero >= 18){
+                document.getElementById("resultado").innerHTML="Puedes entrar.";
+            } else {
+                document.getElementById("resultado").innerHTML="No puedes entrar.";
+            }
+        }
+    </script>
+</body>
+</html>

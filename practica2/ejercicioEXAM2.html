@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleX.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="INPUTS">
+        <div class="NOMBRE">
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre">
+        </div>
+        <br>
+        <div class="EDAD">
+            <label for="edad">Edad: </label>
+            <input type="number" name="edad" id="edad">
+        </div>
+        <br>
+        <div class="BOTON">
+            <button onclick="generarFila()" id="boton">Generar Fila</button>
+        </div>
+        <br>
+    </form>
+    <table id="TABLA" class="TABLA">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="filaNueva">
+                
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

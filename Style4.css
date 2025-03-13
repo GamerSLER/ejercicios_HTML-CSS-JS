@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(1, 95, 92);
+}
+.tarjeta {
+  width: 300px;/*anchura*/
+  height: 400px;/*para tener el largo del cuadrado/rectangulo*/
+  background-color: rgb(207, 157, 211);/*color del fondo*/
+  padding: 20px;/*para que el texto no este muy arriba*/
+  text-align: center;/*para centrar texto*/
+  margin: 0 auto;/*para centrar caja*/
+  outline: 3px;
+  box-sizing: border-box;/*para hacelo como caja y que no afecte el tamaño total de la  tarjeta*/
+}
+h1 {
+    color: rgb(28, 8, 66);
+    font-size: 25px;
+    font-weight: 15px;
+    font-family: 'Jersey 15', sans-serif;
+}
+p {
+  font-size: 20px;
+  color: rgb(6, 33, 74);
+  font-weight: 50;
+  text-transform: lowercase;
+  text-shadow: 3px 2px 2px purple ;
+}

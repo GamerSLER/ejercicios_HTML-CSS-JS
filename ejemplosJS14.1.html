@@ -1,0 +1,50 @@
+<!-- Bien resuelto -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejercicio de JavaScript</title>
+<style>
+ .titulo {
+ background-color: yellow;
+ }
+</style>
+</head>
+<body>
+ <h1 id="titulo" class="titulo">Mi lista de compras</h1>
+ <ul id="lista-compras">
+ <li>Manzanas</li>
+ <li>Plátanos</li>
+ <li>Naranjas</li>
+ </ul>
+
+ <button onclick="realizarCambios()" id="boton">Realizar cambios</button>
+ <script>
+
+ function realizarCambios(){
+ // Obtener la lista de compras
+ var listaCompras = document.getElementById("lista-compras");
+ // Contar cuántos elementos hay en la lista de compras
+ var numElementos = listaCompras.getElementsByTagName("li").length;
+ console.log("Número de elementos en la lista de compras:", numElementos);
+ // Cambiar el contenido del primer elemento de la lista por "Peras"
+ var primerElemento = listaCompras.getElementsByTagName("li")[0];
+ primerElemento.textContent = "Peras";
+ // Cambiar el color de fondo del título a azul
+ var titulo = document.getElementById("titulo");
+ titulo.style.backgroundColor = "blue";
+ // Cambiar el color del texto de todos los elementos de la lista de compras a verde
+ var elementosLista = listaCompras.getElementsByTagName("li");
+ for (var i = 0; i < elementosLista.length; i++) {
+ elementosLista[i].style.color = "green";
+ }
+ // Cambiar el color del texto del título a rojo utilizando
+getElementsByClassName()
+ var tituloClase = document.getElementsByClassName("titulo")[0];
+ tituloClase.style.color = "red";
+ }
+
+ </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+</head>
+<body>
+    <p id="resultado"></p>
+    <button onclick="sumaArray()">Verificar</button>
+    <script>
+        function sumarArray(array) {
+        var suma = 0;
+        for (var i = 0; i < array.length; i++) {
+            suma += array[i];
+        } return suma;
+        }
+        var numeros = [5, 10, 15, 20, 25];
+        var resultado = sumarArray(numeros);
+        console.log("La suma de los números del array es:", resultado);
+    </script>
+</body>
+</html>

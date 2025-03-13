@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="StyleX.css">
+</head>
+<body>
+    <h1 class="titulo">FORMULARIO DE REGISTRO</h1>
+    <form class="FORM">
+        <div class="NOMBRE">
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" required>
+        </div>
+        <br>
+        <div class="EMAIL">
+            <label for="email">Correo Electrónico: </label>
+            <input type="text" name="email" id="email" required>
+        </div>
+        <br>
+        <div class="GENERO">
+            <label for="genero">Género: </label>
+            <select name="genero" id="genero" required>
+                <option value="">Seleccionar</option>
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="Gay">Gay</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <button type="boton" onclick="mostrarAlerta()" class="ENVIAR">Enviar</button>
+        </div>
+        <script src="JSX.js"></script>
+    </form>
+</body>
+</html>

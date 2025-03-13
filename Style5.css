@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(182, 219, 248);
+}
+.caja:hover {
+    background-color:rgb(75, 75, 176);
+    width: 200px;/*anchura*/
+    height: 200px;/*para tener el largo del cuadrado/rectangulo*/
+    padding: 20px;/*para que el texto no este muy arriba*/
+    margin: 0 auto;/*para centrar caja*/
+    outline: 3px;
+    box-sizing: border-box;/*para hacelo como caja y que no afecte el tamaño total de la  tarjeta*/
+  }
+li {
+    color: rgb(0, 23, 88);
+}
+ol {
+    color: rgb(150, 99, 6)
+}

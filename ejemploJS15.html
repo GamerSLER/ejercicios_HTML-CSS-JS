@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15</title>
+    <style>
+        .titulo{
+            background-color: gray;
+        }
+    </style>
+    <style>
+        table {
+        width: 50%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        }
+        th, td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: left;
+        }
+        th {
+        background-color: white;
+        }
+        #titulo {
+        font-size: 20px;
+        font-weight: bold;
+        }
+        </style>
+</head>
+<body>
+    <h1 id="titulo" class="titulo">TIENDA</h1>
+
+    <table id="lista-objetos">
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Manzanas</td>
+                <td>$2.00</td>
+            </tr>
+            <tr>
+                <td>Plátanos</td>
+                <td>$1.50</td>
+            </tr>
+            <tr>
+                <td>Leche</td>
+                <td>$3.00</td>
+            </tr>
+        </table>
+        
+        <button onclick="modificarTabla()">Modificar Tabla</button>
+    <script src="DOM2.js">
+    </script>
+</body>
+</html>

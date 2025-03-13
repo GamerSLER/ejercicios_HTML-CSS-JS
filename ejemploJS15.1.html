@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lista de Productos</title>
+<style>
+table {
+width: 50%;
+border-collapse: collapse;
+margin: 20px 0;
+}
+th, td {
+border: 1px solid black;
+padding: 10px;
+text-align: left;
+}
+th {
+background-color: white;
+}
+#titulo {
+font-size: 20px;
+font-weight: bold;
+}
+</style>
+</head>
+<body>
+<h1 id="titulo">Lista de Productos</h1>
+<table id="tablaProductos">
+<tr>
+<th>Producto</th>
+<th>Precio</th>
+</tr>
+<tr>
+<td>Manzanas</td>
+<td>$2.00</td>
+</tr>
+<tr>
+<td>Plátanos</td>
+<td>$1.50</td>
+</tr>
+<tr>
+<td>Leche</td>
+<td>$3.00</td>
+</tr>
+</table>
+<button onclick="modificarTabla()">Modificar Tabla</button>
+<script>
+function modificarTabla() {
+let tabla = document.getElementById("tablaProductos");
+let filas = tabla.getElementsByTagName("tr");
+// Contar filas sin incluir la cabecera y mostrar en una alerta
+alert("Número de productos en la tabla: " + (filas.length - 1));
+// Modificar la última fila
+let ultimaFila = filas[filas.length - 1].getElementsByTagName("td");
+ultimaFila[0].textContent = "Descuento";
+ultimaFila[1].textContent = "50% OFF";
+// Cambiar el color de fondo de la tabla
+tabla.style.backgroundColor = "lightblue";
+// Cambiar la fuente del título y alinearlo al centro
+let titulo = document.getElementById("titulo");
+titulo.style.fontFamily = "Courier New";
+titulo.style.textAlign = "center";
+}
+</script>
+</body>
+</html>

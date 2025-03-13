@@ -1,0 +1,95 @@
+/* Encabezado */
+header {
+    display: block;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Menú de navegación */
+nav {
+    display: block;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    display: inline;
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Sección de contenido principal */
+.contenido-principal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+article {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Barra lateral */
+aside {
+    display: block;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.iconos li {
+    margin: 10px;
+}
+
+/* Tabla de datos */
+table {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+/* Pie de página */
+footer {
+    display: block;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.enlaces-sociales {
+    display: inline-block;
+    margin: 10px;
+}
+
+.enlaces-sociales li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.enlaces-sociales a {
+    color: #fff;
+    text-decoration: none;
+}

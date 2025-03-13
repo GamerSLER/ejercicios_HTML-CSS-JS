@@ -1,0 +1,44 @@
+*{
+    background-color: lightgray;
+}
+#nombre{
+    background-color: rgb(173, 197, 255);
+}
+.NOMBRE{
+    display: flex;
+    justify-content: center;
+}
+#edad{
+    background-color: rgb(173, 197, 255);
+}
+.EDAD{
+    display: flex;
+    justify-content: center;
+}
+#boton{
+    background-color: rgb(173, 197, 255);
+}
+#boton:hover{
+    background-color: lightblue;
+    color: green;
+}
+.BOTON{
+    display: flex;
+    justify-content: center;
+}
+
+.TABLA{
+    display: grid;
+    justify-content: center;
+    border: 5px solid rgb(80, 80, 244);
+    border-radius: 30px;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px 3px black;
+}
+tr th{
+    border: 3px solid rgb(109, 25, 121);
+}
+th{
+    background-color: rgb(173, 197, 255);
+}

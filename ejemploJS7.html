@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Introduce tres número y te diré cual es más grande</h1>
+    <input type="number" id="inputn1">
+    <input type="number" id="inputn2">
+    <input type="number" id="inputn3">
+    <button onclick="numeroMayor()">Verificar</button>
+    <p id="resultado"></p>
+    <script>
+        function numeroMayor(){
+            var num1 = document.getElementById("inputn1");
+            var num2 = document.getElementById("inputn2");
+            var num3 = document.getElementById("inputn3");
+            Number = num1;
+            Number = num2;
+            Number = num3;
+
+            if (num1 > num2 && num1 > num3){
+                document.getElementById("resultado").innerHTML="El primer número es el mayor";
+            } else if (num2 > num1 && num2 > num3){
+                document.getElementById("resultado").innerHTML="El segundo número es el mayor";
+            } else if (num3 > num1 && num3 > num2){
+                document.getElementById("resultado").innerHTML="El tercer número es el mayor";
+            } else {
+                document.getElementById("resultado").innerHTML="Son iguales"
+            }
+        }
+    </script>
+</body>
+</html>

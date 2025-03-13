@@ -1,0 +1,21 @@
+.img1{
+    width: 100px;
+    height: auto;
+}
+
+.img2{
+    width: 150px;
+    height: auto;
+}
+
+.img3{
+    width: 150px;
+    height: auto;
+}
+
+.imgBackground{
+    max-width: 500px;
+    max-height: fit-content;
+    z-index: -1;
+    position: fixed;
+}

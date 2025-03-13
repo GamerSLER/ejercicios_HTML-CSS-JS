@@ -1,0 +1,55 @@
+body{
+    background:radial-gradient(rgb(176, 155, 255), rgb(255, 220, 137))
+}
+h2{
+    text-decoration: underline;
+}
+p{
+    font-family: "Iansui", cursive;
+}
+label{
+    font-family: "Ponomar", system-ui;
+}
+th:hover{
+    background-color: rgb(109, 0, 160);
+    transform: scale(1.05);
+}
+td:hover{
+    background-color: yellow;
+    transform: scale(1.05);
+}
+.ejm:hover{
+    color: rgb(255, 0, 157);
+}
+.enviar{
+    background-color: gray;
+}
+.envia:hover{
+    transform: scale(0.8);
+}
+.enviar:hover{
+    transform: scale(0.8);
+    background-color: rgb(102, 255, 143);
+}
+.imagen1:hover{
+    transform: scale(1.2) translate(-100px, -200px) rotate(30deg) matrix(0,1,1,0,0,0);
+}
+.imagen1{
+    width: 300px;
+    height: 250px;
+    background:radial-gradient(rgb(229, 255, 0), purple);
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.pe{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    color: rgb(130, 104, 94);
+}
+.enlace1:hover{
+    color: green;
+    
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: yellow;
+}
+
+.cajaVISIBLE{
+    max-width: 100px;
+    max-height: 100px;
+    overflow:visible;
+    box-sizing: border-box;
+} 
+.cajaHIDDEN{
+    max-width: 100px;
+    max-height: 100px;
+    overflow:hidden;
+    box-sizing: border-box;
+} 
+.cajaSCROLL{
+    max-width: 250px;
+    max-height: 500px;
+    overflow:scroll;
+    box-sizing: border-box;
+} 
+.cajaAUTO{
+    max-width: 100px;
+    max-height: 500px;
+    overflow:auto;
+    box-sizing: border-box;
+} 
