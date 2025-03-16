@@ -10,11 +10,17 @@ p{
 label{
     font-family: "Ponomar", system-ui;
 }
-th:hover{
+#tr1{
+    background-color: rgb(108, 97, 229);
+}
+#tr2{
+    background-color: rgb(201, 215, 87);
+}
+#tr1:hover{
     background-color: rgb(109, 0, 160);
     transform: scale(1.05);
 }
-td:hover{
+#tr2:hover{
     background-color: yellow;
     transform: scale(1.05);
 }
@@ -52,4 +58,72 @@ td:hover{
 .enlace1:hover{
     color: green;
     
+}
+#address{
+    size: 10px;
+}
+.Ejercicio2 {
+    background-color: #f5f9e0;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: auto;
+}
+
+h2 {
+    color: #2c3e50;
+    font-family: Arial, sans-serif;
+}
+
+#tabla {
+    margin: auto;
+    width: 60%;
+    border-collapse: collapse;
+    background-color: #95b9ff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#tabla th, #tabla td {
+    padding: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#tabla th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+#tabla tr:nth-child(even) {
+    background-color: #cce5ff;
+}
+
+#nombre2 {
+    padding: 8px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#button {
+    border-radius: 5px;
+    padding: 8px 12px;
+    background-color: #11239a;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#button:hover {
+    background-color: wheat;
+    color: #11239a;
+    transform: scale(1.1);
 }
